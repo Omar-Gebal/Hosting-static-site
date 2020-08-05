@@ -1,0 +1,153 @@
+body {
+  margin: auto 0;
+  font-family: sans-serif;
+}
+
+.zone {
+  /* padding: 30px 50px;
+  margin: 40px 60px; */
+  cursor: pointer;
+  /* display: inline-block; */
+  color: #fff;
+  font-size: 2em;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  transition: all 0.3s linear;
+}
+
+.zone:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+}
+
+.box:hover {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-box-transform: scale(1.05);
+  -o-box-transform: scale(1.05);
+}
+
+/* NAV */
+
+.black {
+  background-color: rgb(36, 36, 36);
+  border-color: rgb(36, 36, 36);
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  font-size: 0.8em;
+  margin: 0;
+}
+
+li {
+  padding: 20px;
+}
+
+.push {
+  margin-left: auto;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* COVER STYLE */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 30px;
+  height: 70vh;
+  cursor: default;
+  text-align: center;
+}
+.dark-blue {
+  background-color: rgb(18, 182, 182);
+  border-color: rgb(18, 182, 182);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 900;
+  padding-top: 30px;
+  color: rgb(36, 36, 36);
+}
+
+button {
+  padding: 10px 30px;
+  font-weight: 500;
+  background-color: white;
+  border: 5px solid rgb(36, 36, 36);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.cover {
+  width: 20rem;
+}
+
+/* GRID */
+.grid-wrapper {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  cursor: default;
+}
+
+.box > img {
+  width: 100%;
+}
+
+.box {
+  background-color: rgb(36, 36, 36);
+  border-color: rgb(36, 36, 36);
+  padding: 120px;
+  margin: 20px;
+}
+
+/* FOOTER */
+.icon {
+  filter: invert(100%);
+  margin-left: 20px;
+}
+.icon:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-box-transform: scale(1.1);
+  -o-box-transform: scale(1.1);
+}
+.default-cursor {
+  cursor: default;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  cursor: default;
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 1080px) {
+  .main-nav {
+    font-size: 0.6em;
+    padding: 0;
+  }
+}
